@@ -3,7 +3,7 @@ const products = {
     vetements: [
         {
             name: "T-shirt Enfant",
-            price: "19.99€",
+            price: "$19.99",
             image: "img/aa-1.jpg",
             category: "vetements",
             rating: 4,
@@ -12,7 +12,7 @@ const products = {
         },
         {
             name: "Robe d'été",
-            price: "29.99€",
+            price: "$29.99",
             image: "img/gg-1.jpg",
             category: "vetements",
             rating: 5,
@@ -21,7 +21,7 @@ const products = {
         },
         {
             name: "Pantalon Jean",
-            price: "24.99€",
+            price: "$24.99",
             image: "img/hh-2.jpg",
             category: "vetements",
             rating: 4,
@@ -30,7 +30,7 @@ const products = {
         },
         {
             name: "Pull Hiver",
-            price: "34.99€",
+            price: "$34.99",
             image: "https://images.unsplash.com/photo-1434389677669-e08b4cac3105",
             category: "vetements",
             rating: 5,
@@ -39,7 +39,7 @@ const products = {
         },
         {
             name: "Short Sport",
-            price: "22.99€",
+            price: "$22.99",
             image: "https://images.unsplash.com/photo-1591195853828-11db59a44f6b",
             category: "vetements",
             rating: 4,
@@ -48,7 +48,7 @@ const products = {
         },
         {
             name: "Veste Légère",
-            price: "39.99€",
+            price: "$39.99",
             image: "https://images.unsplash.com/photo-1499971856191-1a420a42b498",
             category: "vetements",
             rating: 5,
@@ -57,7 +57,7 @@ const products = {
         },
         {
             name: "Chemise Élégante",
-            price: "27.99€",
+            price: "$27.99",
             image: "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2",
             category: "vetements",
             rating: 4,
@@ -66,7 +66,7 @@ const products = {
         },
         {
             name: "Manteau Hiver",
-            price: "49.99€",
+            price: "$49.99",
             image: "https://images.unsplash.com/photo-1445796886651-d31a2c14b0c2",
             category: "vetements",
             rating: 5,
@@ -75,7 +75,7 @@ const products = {
         },
         {
             name: "Jupe Plissée",
-            price: "26.99€",
+            price: "$26.99",
             image: "https://images.unsplash.com/photo-1577900232427-18219b9166a0",
             category: "vetements",
             rating: 4,
@@ -84,7 +84,7 @@ const products = {
         },
         {
             name: "Ensemble Sport",
-            price: "44.99€",
+            price: "$44.99",
             image: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f",
             category: "vetements",
             rating: 5,
@@ -95,7 +95,7 @@ const products = {
     chaussures: [
         {
             name: "Baskets Sport",
-            price: "34.99€",
+            price: "$34.99",
             image: "https://images.unsplash.com/photo-1514989940723-e8e51635b782",
             category: "chaussures",
             rating: 4,
@@ -104,8 +104,8 @@ const products = {
         },
         {
             name: "Sandales d'été",
-            price: "24.99€",
-            image: "https://images.unsplash.com/photo-1621996659490-3275b4d0d951",
+            price: "$24.99",
+            image: "https://images.unsplash.com/photo-1621996659490-11db59a44f6b",
             category: "chaussures",
             rating: 5,
             colors: ["Rose", "Jaune", "Blanc"],
@@ -113,7 +113,7 @@ const products = {
         },
         {
             name: "Chaussures École",
-            price: "29.99€",
+            price: "$29.99",
             image: "https://images.unsplash.com/photo-1571141412904-2d4fc21007ea",
             category: "chaussures",
             rating: 4,
@@ -122,7 +122,7 @@ const products = {
         },
         {
             name: "Bottes Pluie",
-            price: "32.99€",
+            price: "$32.99",
             image: "https://images.unsplash.com/photo-1520639888713-7851133b1ed0",
             category: "chaussures",
             rating: 5,
@@ -131,7 +131,7 @@ const products = {
         },
         {
             name: "Ballerines",
-            price: "27.99€",
+            price: "$27.99",
             image: "https://images.unsplash.com/photo-1543163521-1bf539c55dd2",
             category: "chaussures",
             rating: 4,
@@ -140,7 +140,7 @@ const products = {
         },
         {
             name: "Sneakers Mode",
-            price: "39.99€",
+            price: "$39.99",
             image: "https://images.unsplash.com/photo-1549298916-b41d501d3772",
             category: "chaussures",
             rating: 5,
@@ -149,7 +149,7 @@ const products = {
         },
         {
             name: "Chaussons Maison",
-            price: "19.99€",
+            price: "$19.99",
             image: "https://images.unsplash.com/photo-1531159557908-e56d11a3020e",
             category: "chaussures",
             rating: 4,
@@ -158,7 +158,7 @@ const products = {
         },
         {
             name: "Sandales Sport",
-            price: "29.99€",
+            price: "$29.99",
             image: "https://images.unsplash.com/photo-1562183241-840b8af0721e",
             category: "chaussures",
             rating: 5,
@@ -167,7 +167,7 @@ const products = {
         },
         {
             name: "Bottines Hiver",
-            price: "44.99€",
+            price: "$44.99",
             image: "https://images.unsplash.com/photo-1542840410-3092f99611a3",
             category: "chaussures",
             rating: 4,
@@ -176,7 +176,7 @@ const products = {
         },
         {
             name: "Tennis Toile",
-            price: "26.99€",
+            price: "$26.99",
             image: "https://images.unsplash.com//photo-1525966222134-fcfa99b8ae77",
             category: "chaussures",
             rating: 5,
@@ -187,7 +187,7 @@ const products = {
     bebe: [
         {
             name: "Body Bébé",
-            price: "14.99€",
+            price: "$14.99",
             image: "https://images.unsplash.com/photo-1522771930-78848d163029",
             category: "bebe",
             rating: 5,
@@ -196,7 +196,7 @@ const products = {
         },
         {
             name: "Pyjama Bébé",
-            price: "19.99€",
+            price: "$19.99",
             image: "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4",
             category: "bebe",
             rating: 4,
@@ -205,7 +205,7 @@ const products = {
         },
         {
             name: "Grenouillère",
-            price: "22.99€",
+            price: "$22.99",
             image: "https://images.unsplash.com/photo-1519689680058-324335c77eba",
             category: "bebe",
             rating: 5,
@@ -214,7 +214,7 @@ const products = {
         },
         {
             name: "Ensemble Naissance",
-            price: "29.99€",
+            price: "$29.99",
             image: "https://images.unsplash.com/photo-1555252333-9f8e92e65df9",
             category: "bebe",
             rating: 4,
@@ -223,7 +223,7 @@ const products = {
         },
         {
             name: "Bavoir Pack",
-            price: "12.99€",
+            price: "$12.99",
             image: "https://images.unsplash.com/photo-1519689680058-324335c77eba",
             category: "bebe",
             rating: 5,
@@ -232,7 +232,7 @@ const products = {
         },
         {
             name: "Bonnet Bébé",
-            price: "9.99€",
+            price: "$9.99",
             image: "https://images.unsplash.com/photo-1555252333-9f8e92e65df9",
             category: "bebe",
             rating: 4,
@@ -241,7 +241,7 @@ const products = {
         },
         {
             name: "Chaussettes Pack",
-            price: "11.99€",
+            price: "$11.99",
             image: "https://images.unsplash.com/photo-1522771930-78848d163029",
             category: "bebe",
             rating: 5,
@@ -250,7 +250,7 @@ const products = {
         },
         {
             name: "Manteau Bébé",
-            price: "34.99€",
+            price: "$34.99",
             image: "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4",
             category: "bebe",
             rating: 4,
@@ -259,7 +259,7 @@ const products = {
         },
         {
             name: "Ensemble été",
-            price: "24.99€",
+            price: "$24.99",
             image: "https://images.unsplash.com/photo-1519689680058-324335c77eba",
             category: "bebe",
             rating: 5,
@@ -268,7 +268,7 @@ const products = {
         },
         {
             name: "Gigoteuse",
-            price: "29.99€",
+            price: "$29.99",
             image: "https://images.unsplash.com/photo-1555252333-9f8e92e65df9",
             category: "bebe",
             rating: 4,
@@ -279,7 +279,7 @@ const products = {
     enfant: [
         {
             name: "Ensemble Sport",
-            price: "39.99€",
+            price: "$39.99",
             image: "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2",
             category: "enfant",
             rating: 4,
@@ -288,7 +288,7 @@ const products = {
         },
         {
             name: "Veste Mi-saison",
-            price: "44.99€",
+            price: "$44.99",
             image: "https://images.unsplash.com/photo-1471286174890-9c112ffca5b4",
             category: "enfant",
             rating: 5,
@@ -297,7 +297,7 @@ const products = {
         },
         {
             name: "Jean Confort",
-            price: "29.99€",
+            price: "$29.99",
             image: "https://images.unsplash.com/photo-1473366334943-3755951a2e90",
             category: "enfant",
             rating: 4,
@@ -306,7 +306,7 @@ const products = {
         },
         {
             name: "T-shirt Imprimé",
-            price: "19.99€",
+            price: "$19.99",
             image: "https://images.unsplash.com/photo-1519278409-1f56fdda7fe5",
             category: "enfant",
             rating: 5,
@@ -315,7 +315,7 @@ const products = {
         },
         {
             name: "Short Sport",
-            price: "24.99€",
+            price: "$24.99",
             image: "https://images.unsplash.com/photo-1591195853828-11db59a44f6b",
             category: "enfant",
             rating: 4,
@@ -324,7 +324,7 @@ const products = {
         },
         {
             name: "Pull Fantaisie",
-            price: "34.99€",
+            price: "$34.99",
             image: "https://images.unsplash.com/photo-1434389677669-e08b4cac3105",
             category: "enfant",
             rating: 5,
@@ -333,7 +333,7 @@ const products = {
         },
         {
             name: "Robe Festive",
-            price: "42.99€",
+            price: "$42.99",
             image: "https://images.unsplash.com/photo-1524920332781-51a3fb93fe40",
             category: "enfant",
             rating: 4,
@@ -342,7 +342,7 @@ const products = {
         },
         {
             name: "Pantalon Cargo",
-            price: "32.99€",
+            price: "$32.99",
             image: "https://images.unsplash.com/photo-1473366334943-3755951a2e90",
             category: "enfant",
             rating: 5,
@@ -351,7 +351,7 @@ const products = {
         },
         {
             name: "Blouson Léger",
-            price: "39.99€",
+            price: "$39.99",
             image: "https://images.unsplash.com/photo-1499971856191-1a420a42b498",
             category: "enfant",
             rating: 4,
@@ -360,7 +360,7 @@ const products = {
         },
         {
             name: "Chemise Casual",
-            price: "27.99€",
+            price: "$27.99",
             image: "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2",
             category: "enfant",
             rating: 5,
@@ -372,7 +372,7 @@ const products = {
 
 document.addEventListener('DOMContentLoaded', function() {
     const heroSlides = document.querySelector('.hero-slides');
-    const singleImage = 'https://images.unsplash.com/photo-1514090458221-65bb69cf63e6';
+    const singleImage = 'https://images.unsplash.com/photo-1514090458221-65bb69cf63e6';  // Image d'un enfant élégamment habillé
 
     const slideDiv = document.createElement('div');
     slideDiv.className = 'hero-slide active';
@@ -381,26 +381,22 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const mobileMenu = document.getElementById('mobile-menu');
     const navLinks = document.querySelector('.nav-links');
-
-    mobileMenu.addEventListener('click', function() {
-        navLinks.classList.toggle('active');
-    });
-
-    let cartItems = [];
     const cartCountElement = document.querySelector('.cart-count');
     const cartIcon = document.querySelector('.cart');
     const cartPanel = document.createElement('div');
-    cartPanel.className = 'cart-panel';
-    document.body.appendChild(cartPanel);
+    let cartItems = [];
 
-    function initCartPanel() {
+    const initCartPanel = () => {
+        cartPanel.className = 'cart-panel';
+        document.body.appendChild(cartPanel);
+
         cartPanel.innerHTML = `
             <div class="cart-header">
                 <h2>Votre Panier</h2>
                 <span class="close-cart">&times;</span>
             </div>
             <div class="cart-items"></div>
-            <div class="cart-total">Total: 0.00€</div>
+            <div class="cart-total">Total: $0.00</div>
             <div class="cart-buttons">
                 <button class="continue-shopping">Continuer les achats</button>
                 <button class="checkout-btn">Commander</button>
@@ -412,17 +408,17 @@ document.addEventListener('DOMContentLoaded', function() {
         cartPanel.querySelector('.checkout-btn').addEventListener('click', checkout);
     }
 
-    function toggleCart() {
+    const toggleCart = () => {
         cartPanel.classList.toggle('active');
     }
 
-    function updateCartDisplay() {
+    const updateCartDisplay = () => {
         const cartItemsContainer = cartPanel.querySelector('.cart-items');
         cartItemsContainer.innerHTML = '';
         let total = 0;
 
         cartItems.forEach((item, index) => {
-            const itemPrice = parseFloat(item.price.replace('€', ''));
+            const itemPrice = parseFloat(item.price.replace('$', ''));
             total += itemPrice * item.quantity;
 
             const itemElement = document.createElement('div');
@@ -445,11 +441,11 @@ document.addEventListener('DOMContentLoaded', function() {
             cartItemsContainer.appendChild(itemElement);
         });
 
-        cartPanel.querySelector('.cart-total').textContent = `Total: ${total.toFixed(2)}€`;
+        cartPanel.querySelector('.cart-total').textContent = `Total: $${total.toFixed(2)}`;
         cartCountElement.textContent = cartItems.reduce((sum, item) => sum + item.quantity, 0);
     }
 
-    document.addEventListener('click', function(e) {
+    document.addEventListener('click', (e) => {
         if(e.target.classList.contains('cta-button') && e.target.textContent === 'Ajouter au panier') {
             const productCard = e.target.closest('.category-card');
             const productName = productCard.querySelector('h3').textContent;
@@ -510,20 +506,98 @@ document.addEventListener('DOMContentLoaded', function() {
 
     cartIcon.addEventListener('click', toggleCart);
 
-    function checkout() {
+    const checkout = () => {
         if(cartItems.length === 0) {
             alert('Votre panier est vide');
             return;
         }
-        alert('Merci de votre commande !');
-        cartItems = [];
-        updateCartDisplay();
-        toggleCart();
+
+        const modalOverlay = document.createElement('div');
+        modalOverlay.className = 'modal-overlay';
+        modalOverlay.style.display = 'flex';
+
+        let total = cartItems.reduce((sum, item) => {
+            return sum + (parseFloat(item.price.replace('$', '')) * item.quantity);
+        }, 0);
+
+        modalOverlay.innerHTML = `
+            <div class="modal">
+                <div class="modal-header">
+                    <h2>VALEA KIDS CLOTHING - Confirmer commande</h2>
+                    <span class="close-modal">&times;</span>
+                </div>
+                <div class="order-summary">
+                    <h3>Résumé de votre commande</h3>
+                    ${cartItems.map(item => `
+                        <div class="order-item">
+                            <span>${item.quantity}x ${item.name} (${item.color}, ${item.size})</span>
+                            <span>$${(parseFloat(item.price.replace('$', '')) * item.quantity).toFixed(2)}</span>
+                        </div>
+                    `).join('')}
+                    <div class="order-item" style="font-weight: bold;">
+                        <span>Total</span>
+                        <span>$${total.toFixed(2)}</span>
+                    </div>
+                </div>
+                <form class="order-form" id="checkout-form">
+                    <div class="form-group">
+                        <div class="input-with-icon">
+                            <i class="fas fa-user"></i>
+                            <input type="text" id="firstname" required placeholder="Votre prénom">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-with-icon">
+                            <i class="fas fa-user"></i>
+                            <input type="text" id="lastname" required placeholder="Votre nom">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-with-icon">
+                            <i class="fas fa-home"></i>
+                            <input type="text" id="address" required placeholder="Votre adresse">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-with-icon">
+                            <i class="fas fa-phone"></i>
+                            <input type="tel" id="phone" required placeholder="Votre numéro de téléphone">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-with-icon">
+                            <i class="fas fa-envelope"></i>
+                            <input type="email" id="email" required placeholder="Votre email">
+                        </div>
+                    </div>
+                    <button type="submit" class="confirm-order-btn">
+                        <i class="fas fa-check"></i> Confirmer la commande
+                    </button>
+                </form>
+            </div>
+        `;
+
+        document.body.appendChild(modalOverlay);
+
+        const closeModal = () => {
+            modalOverlay.remove();
+        };
+
+        modalOverlay.querySelector('.close-modal').addEventListener('click', closeModal);
+
+        modalOverlay.querySelector('#checkout-form').addEventListener('submit', (e) => {
+            e.preventDefault();
+            alert('Merci pour votre commande ! Vous recevrez un email de confirmation.');
+            cartItems = [];
+            updateCartDisplay();
+            closeModal();
+            toggleCart();
+        });
     }
 
     initCartPanel();
 
-    function displayProducts(category) {
+    const displayProducts = (category) => {
         const categorySection = document.getElementById('categories');
         
         const oldListing = categorySection.querySelector('.product-listing');
@@ -561,7 +635,7 @@ document.addEventListener('DOMContentLoaded', function() {
         categorySection.appendChild(productListing);
     }
 
-    function generateStarRating(rating) {
+    const generateStarRating = (rating) => {
         let stars = '';
         for (let i = 1; i <= 5; i++) {
             if (i <= rating) {
