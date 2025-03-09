@@ -1,10 +1,10 @@
 // Product data needs to be defined before it's used
 const products = {
     vetements: [
-        {
+         {
             name: "T-shirt Enfant",
-            price: "$19.99",
-            image: "https://images.unsplash.com/photo-1519278409-1f56fdda7fe5",
+            price: "19.99€",
+            image: "img/aa-1.jpg",
             category: "vetements",
             rating: 4,
             colors: ["Rouge", "Bleu", "Blanc"],
@@ -12,8 +12,8 @@ const products = {
         },
         {
             name: "Robe d'été",
-            price: "$29.99",
-            image: "https://images.unsplash.com/photo-1524920332781-51a3fb93fe40",
+            price: "29.99€",
+            image: "img/gg-1.jpg",
             category: "vetements",
             rating: 5,
             colors: ["Rose", "Jaune", "Blanc"],
@@ -21,8 +21,8 @@ const products = {
         },
         {
             name: "Pantalon Jean",
-            price: "$24.99",
-            image: "https://images.unsplash.com/photo-1473366334943-3755951a2e90",
+            price: "24.99€",
+            image: "img/hh-2.jpg",
             category: "vetements",
             rating: 4,
             colors: ["Bleu", "Noir", "Gris"],
