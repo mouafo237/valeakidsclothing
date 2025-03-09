@@ -4,7 +4,7 @@ const products = {
         {
             name: "T-shirt Enfant",
             price: "$19.99",
-            image: "img/aa-1.jpg",
+            image: "https://images.unsplash.com/photo-1519278409-1f56fdda7fe5",
             category: "vetements",
             rating: 4,
             colors: ["Rouge", "Bleu", "Blanc"],
@@ -13,7 +13,7 @@ const products = {
         {
             name: "Robe d'été",
             price: "$29.99",
-            image: "img/gg-1.jpg",
+            image: "https://images.unsplash.com/photo-1524920332781-51a3fb93fe40",
             category: "vetements",
             rating: 5,
             colors: ["Rose", "Jaune", "Blanc"],
@@ -22,7 +22,7 @@ const products = {
         {
             name: "Pantalon Jean",
             price: "$24.99",
-            image: "img/hh-2.jpg",
+            image: "https://images.unsplash.com/photo-1473366334943-3755951a2e90",
             category: "vetements",
             rating: 4,
             colors: ["Bleu", "Noir", "Gris"],
@@ -525,6 +525,17 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div class="modal-header">
                     <h2>VALEA KIDS CLOTHING - Confirmer commande</h2>
                     <span class="close-modal">&times;</span>
+                </div>
+                <div class="company-info">
+                    <h3>Informations de la société</h3>
+                    <p><i class="fas fa-building"></i> VALEA KIDS CLOTHING</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Avenue de la Mode</p>
+                    <p><i class="fas fa-map-pin"></i> 75008 Paris, France</p>
+                    <p><i class="fas fa-phone"></i> +33 (0)1 23 45 67 89</p>
+                    <p><i class="fas fa-envelope"></i> contact@valeakids.com</p>
+                    <p><i class="fas fa-clock"></i> Lun-Ven: 9h-18h</p>
+                    <p><i class="fas fa-info-circle"></i> SIRET: 123 456 789 00001</p>
+                    <p><i class="fas fa-globe"></i> www.valeakids.com</p>
                 </div>
                 <div class="order-summary">
                     <h3>Résumé de votre commande</h3>
