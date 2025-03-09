@@ -523,14 +523,12 @@ document.addEventListener('DOMContentLoaded', function() {
         modalOverlay.innerHTML = `
             <div class="modal">
                 <div class="modal-header">
-                    <h2>VALEA KIDS CLOTHING - Confirmer commande</h2>
+                    <h2>VALEA KIDS CLOTHING</h2>
                     <span class="close-modal">&times;</span>
                 </div>
                 <div class="company-info">
-                    <h3>Informations de la société</h3>
-                    <p><i class="fas fa-building"></i> VALEA KIDS CLOTHING</p>
                     <p><i class="fas fa-map-marker-alt"></i> 123 Avenue de la Mode</p>
-                    <p><i class="fas fa-map-pin"></i> 75008 Paris, France</p>
+                    <p><i class="fas fa-map-pin"></i> 75008 QUEBEC, Canada</p>
                     <p><i class="fas fa-phone"></i> +33 (0)1 23 45 67 89</p>
                     <p><i class="fas fa-envelope"></i> contact@valeakids.com</p>
                     <p><i class="fas fa-clock"></i> Lun-Ven: 9h-18h</p>
