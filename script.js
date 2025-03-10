@@ -379,8 +379,13 @@ document.addEventListener('DOMContentLoaded', function() {
     slideDiv.style.backgroundImage = `url('${singleImage}')`;
     heroSlides.appendChild(slideDiv);
 
-    const mobileMenu = document.getElementById('mobile-menu');
+const mobileMenu = document.getElementById('mobile-menu');
     const navLinks = document.querySelector('.nav-links');
+
+    mobileMenu.addEventListener('click', function() {
+        navLinks.classList.toggle('active');
+    });
+    
     const cartCountElement = document.querySelector('.cart-count');
     const cartIcon = document.querySelector('.cart');
     const cartPanel = document.createElement('div');
