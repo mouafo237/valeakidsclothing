@@ -369,23 +369,31 @@ const products = {
         }
     ]
 };
-
 document.addEventListener('DOMContentLoaded', function() {
     const heroSlides = document.querySelector('.hero-slides');
-    const singleImage = 'https://images.unsplash.com/photo-1514090458221-65bb69cf63e6';  // Image d'un enfant élégamment habillé
+    const singleImage = 'aa.jpg';  // Image d'un enfant élégamment habillé
+    const SHEETDB_URL = "https://sheetdb.io/api/v1/0ntixpt0eb4wt"; // Remplacez par votre API Key
+    
+   
 
     const slideDiv = document.createElement('div');
     slideDiv.className = 'hero-slide active';
     slideDiv.style.backgroundImage = `url('${singleImage}')`;
     heroSlides.appendChild(slideDiv);
 
-const mobileMenu = document.getElementById('mobile-menu');
+
+     const mobileMenu = document.getElementById('mobile-menu');
     const navLinks = document.querySelector('.nav-links');
 
     mobileMenu.addEventListener('click', function() {
         navLinks.classList.toggle('active');
     });
+
     
+
+
+
+
     const cartCountElement = document.querySelector('.cart-count');
     const cartIcon = document.querySelector('.cart');
     const cartPanel = document.createElement('div');
@@ -511,103 +519,160 @@ const mobileMenu = document.getElementById('mobile-menu');
 
     cartIcon.addEventListener('click', toggleCart);
 
-    const checkout = () => {
-        if(cartItems.length === 0) {
-            alert('Votre panier est vide');
+   const checkout = () => {
+    if (cartItems.length === 0) {
+        alert('Votre panier est vide');
+        return;
+    }
+
+    const modalOverlay = document.createElement('div');
+    modalOverlay.className = 'modal-overlay';
+    modalOverlay.style.display = 'flex';
+
+    let total = cartItems.reduce((sum, item) => {
+        return sum + (parseFloat(item.price.replace('$', '')) * item.quantity);
+    }, 0);
+
+    modalOverlay.innerHTML = `
+        <div class="modal">
+            <div class="modal-header">
+                <h2>VALEA KIDS CLOTHING</h2>
+                <span class="close-modal">&times;</span>
+            </div>
+            <div class="company-info">
+                <h3>Informations de la société</h3>
+                <p><i class="fas fa-building"></i> VALEA KIDS CLOTHING</p>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Avenue de la Mode</p>
+                <p><i class="fas fa-map-pin"></i> 75008 Paris, France</p>
+                <p><i class="fas fa-phone"></i> +33 (0)1 23 45 67 89</p>
+                <p><i class="fas fa-envelope"></i> contact@valeakids.com</p>
+                <p><i class="fas fa-clock"></i> Lun-Ven: 9h-18h</p>
+                <p><i class="fas fa-info-circle"></i> SIRET: 123 456 789 00001</p>
+                <p><i class="fas fa-globe"></i> www.valeakids.com</p>
+            </div>
+            <div class="order-summary">
+                <h3>Résumé de votre commande</h3>
+                ${cartItems.map(item => `
+                    <div class="order-item">
+                        <span>${item.quantity}x ${item.name} (${item.color}, ${item.size})</span>
+                        <span>$${(parseFloat(item.price.replace('$', '')) * item.quantity).toFixed(2)}</span>
+                    </div>
+                `).join('')}
+                <div class="order-item" style="font-weight: bold;">
+                    <span>Total</span>
+                    <span>$${total.toFixed(2)}</span>
+                </div>
+            </div>
+            <form class="order-form" id="checkout-form">
+                <div class="form-group">
+                    <div class="input-with-icon">
+                        <i class="fas fa-user"></i>
+                        <input type="text" id="firstname" required placeholder="Votre prénom">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="input-with-icon">
+                        <i class="fas fa-user"></i>
+                        <input type="text" id="lastname" required placeholder="Votre nom">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="input-with-icon">
+                        <i class="fas fa-home"></i>
+                        <input type="text" id="address" required placeholder="Votre adresse">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="input-with-icon">
+                        <i class="fas fa-phone"></i>
+                        <input type="tel" id="phone" required placeholder="Votre numéro de téléphone">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="input-with-icon">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" id="email" required placeholder="Votre email">
+                    </div>
+                </div>
+                <button type="submit" class="confirm-order-btn">
+                    <i class="fas fa-check"></i> Confirmer la commande
+                </button>
+            </form>
+        </div>
+    `;
+
+    document.body.appendChild(modalOverlay);
+
+    const closeModal = () => {
+        modalOverlay.remove();
+    };
+
+    modalOverlay.querySelector('.close-modal').addEventListener('click', closeModal);
+
+    modalOverlay.querySelector('#checkout-form').addEventListener('submit', (e) => {
+        e.preventDefault();
+
+        // Récupérer les informations de l'utilisateur
+        const customerName = document.getElementById("firstname").value;
+        const customerEmail = document.getElementById("email").value;
+        const customerPhone = document.getElementById("phone").value;
+        const customerAddress = document.getElementById("address").value;
+
+        // Vérifier que tous les champs sont remplis
+        if (!customerName || !customerEmail || !customerPhone || !customerAddress) {
+            alert("Veuillez remplir tous les champs !");
             return;
         }
 
-        const modalOverlay = document.createElement('div');
-        modalOverlay.className = 'modal-overlay';
-        modalOverlay.style.display = 'flex';
+         // Ajoute ici la modification du bouton
+         const confirmButton = e.target.querySelector('.confirm-order-btn');
+         confirmButton.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Envoi de la commande en cours...';
+         confirmButton.disabled = true; // Désactive le bouton pour éviter les clics multiples
 
-        let total = cartItems.reduce((sum, item) => {
-            return sum + (parseFloat(item.price.replace('$', '')) * item.quantity);
-        }, 0);
 
-        modalOverlay.innerHTML = `
-            <div class="modal">
-                <div class="modal-header">
-                    <h2>VALEA KIDS CLOTHING</h2>
-                    <span class="close-modal">&times;</span>
-                </div>
-                <div class="company-info">
-                    <p><i class="fas fa-map-marker-alt"></i> 123 Avenue de la Mode</p>
-                    <p><i class="fas fa-map-pin"></i> 75008 QUEBEC, Canada</p>
-                    <p><i class="fas fa-phone"></i> +33 (0)1 23 45 67 89</p>
-                    <p><i class="fas fa-envelope"></i> contact@valeakids.com</p>
-                    <p><i class="fas fa-clock"></i> Lun-Ven: 9h-18h</p>
-                    <p><i class="fas fa-info-circle"></i> SIRET: 123 456 789 00001</p>
-                    <p><i class="fas fa-globe"></i> www.valeakids.com</p>
-                </div>
-                <div class="order-summary">
-                    <h3>Résumé de votre commande</h3>
-                    ${cartItems.map(item => `
-                        <div class="order-item">
-                            <span>${item.quantity}x ${item.name} (${item.color}, ${item.size})</span>
-                            <span>$${(parseFloat(item.price.replace('$', '')) * item.quantity).toFixed(2)}</span>
-                        </div>
-                    `).join('')}
-                    <div class="order-item" style="font-weight: bold;">
-                        <span>Total</span>
-                        <span>$${total.toFixed(2)}</span>
-                    </div>
-                </div>
-                <form class="order-form" id="checkout-form">
-                    <div class="form-group">
-                        <div class="input-with-icon">
-                            <i class="fas fa-user"></i>
-                            <input type="text" id="firstname" required placeholder="Votre prénom">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="input-with-icon">
-                            <i class="fas fa-user"></i>
-                            <input type="text" id="lastname" required placeholder="Votre nom">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="input-with-icon">
-                            <i class="fas fa-home"></i>
-                            <input type="text" id="address" required placeholder="Votre adresse">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="input-with-icon">
-                            <i class="fas fa-phone"></i>
-                            <input type="tel" id="phone" required placeholder="Votre numéro de téléphone">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="input-with-icon">
-                            <i class="fas fa-envelope"></i>
-                            <input type="email" id="email" required placeholder="Votre email">
-                        </div>
-                    </div>
-                    <button type="submit" class="confirm-order-btn">
-                        <i class="fas fa-check"></i> Confirmer la commande
-                    </button>
-                </form>
-            </div>
-        `;
+        // Générer un ID unique pour la commande
+        const orderId = "CMD_" + Date.now();
 
-        document.body.appendChild(modalOverlay);
+        // Calculer le montant total
+        let totalPrice = cartItems.reduce((sum, item) => sum + (parseFloat(item.price.replace('$', '')) * item.quantity), 0);
 
-        const closeModal = () => {
-            modalOverlay.remove();
+        // Format des articles
+        const itemsDetails = cartItems.map(item => 
+            `${item.name} - ${item.price} x${item.quantity} (${item.color}, ${item.size})`
+        ).join("; ");
+
+        // Objet à envoyer à SheetDB
+        const orderData = {
+            "order_id": orderId,
+            "customer_name": customerName,
+            "customer_email": customerEmail,
+            "customer_phone": customerPhone,
+            "customer_address": customerAddress,
+            "total_price": totalPrice.toFixed(2),
+            "items_details": itemsDetails,
+            "date": new Date().toISOString().split('T')[0] // Date au format YYYY-MM-DD
         };
 
-        modalOverlay.querySelector('.close-modal').addEventListener('click', closeModal);
-
-        modalOverlay.querySelector('#checkout-form').addEventListener('submit', (e) => {
-            e.preventDefault();
-            alert('Merci pour votre commande ! Vous recevrez un email de confirmation.');
-            cartItems = [];
-            updateCartDisplay();
-            closeModal();
-            toggleCart();
+        // Envoi des données à SheetDB
+        fetch(SHEETDB_URL, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ data: [orderData] })
+        })
+        .then(response => response.json())
+        .then(data => {
+            alert("Commande enregistrée avec succès !");
+            cartItems = []; // Vider le panier
+            updateCartDisplay(); // Mettre à jour l'affichage du panier
+            closeModal(); // Fermer le modal
+        })
+        .catch(error => {
+            console.error("Erreur lors de l'envoi :", error);
+            alert("Une erreur est survenue. Veuillez réessayer.");
         });
-    }
+    });
+};
+
 
     initCartPanel();
 
@@ -698,3 +763,4 @@ const mobileMenu = document.getElementById('mobile-menu');
         });
     });
 });
+
