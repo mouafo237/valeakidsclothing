@@ -371,7 +371,7 @@ const products = {
 };
 document.addEventListener('DOMContentLoaded', function() {
     const heroSlides = document.querySelector('.hero-slides');
-    const singleImage = 'aa.jpg';  // Image d'un enfant élégamment habillé
+    const singleImage = 'https://images.unsplash.com/photo-1514090458221-65bb69cf63e6';  // Image d'un enfant élégamment habillé';  // Image d'un enfant élégamment habillé
     const SHEETDB_URL = "https://sheetdb.io/api/v1/0ntixpt0eb4wt"; // Remplacez par votre API Key
     
    
