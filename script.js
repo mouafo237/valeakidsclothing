@@ -2,18 +2,18 @@
 const products = {
     vetements: [
          {
-            name: "T-shirt Enfant",
-            price: "19.99€",
-            image: "img/aa-1.jpg",
+            name: "Ensensemble",
+            price: "1$",
+            image: "img/G1.jpeg",
             category: "vetements",
             rating: 4,
-            colors: ["Rouge", "Bleu", "Blanc"],
-            sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
+            colors: ["Couleur unique"],
+            sizes: ["4-5 ans", "6-7 ans", "8-9 ans"]
         },
         {
             name: "Robe d'été",
-            price: "29.99€",
-            image: "img/gg-1.jpg",
+            price: "2$",
+            image: "img/F1.jpeg",
             category: "vetements",
             rating: 5,
             colors: ["Rose", "Jaune", "Blanc"],
@@ -21,8 +21,8 @@ const products = {
         },
         {
             name: "Pantalon Jean",
-            price: "24.99€",
-            image: "img/hh-2.jpg",
+            price: "3$",
+            image: "img/G3.jpeg",
             category: "vetements",
             rating: 4,
             colors: ["Bleu", "Noir", "Gris"],
@@ -30,8 +30,8 @@ const products = {
         },
         {
             name: "Pull Hiver",
-            price: "$34.99",
-            image: "https://images.unsplash.com/photo-1434389677669-e08b4cac3105",
+            price: "$4",
+            image: "img/G2.jpeg",
             category: "vetements",
             rating: 5,
             colors: ["Rouge", "Bleu", "Vert"],
