@@ -1,0 +1,148 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VALEA KIDS CLOTHING - Boutique Enfants</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="logo">
+                <img src="img/logo.jpeg" alt="Valea Kids Logo">
+                <h1>VALEA KIDS CLOTHING</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#nouveautes">Nouveautés</a></li>
+                <li><a href="#categories">Collections</a></li>
+                <li><a href="#promos">Promotions</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="cart">
+                <i class="fas fa-shopping-cart"  style="color: blue; font-size: 30px;"></i>
+                <span class="cart-count">0</span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Add Sidebar Menu -->
+    <div class="sidebar-overlay"></div>
+    <div class="sidebar-menu">
+        <div class="sidebar-header">
+            <img src="WhatsApp Image 2025-03-05 at 21.34.43.jpeg" alt="Valea Kids Logo">
+            <span class="close-sidebar">&times;</span>
+        </div>
+        <ul class="sidebar-links">
+            <li><a href="#nouveautes"><i class="fas fa-star"></i>Nouveautés</a></li>
+            <li><a href="#categories"><i class="fas fa-tshirt"></i>Collections</a></li>
+            <li><a href="#promos"><i class="fas fa-tags"></i>Promotions</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i>Contact</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <section id="hero" class="new-hero">
+            <div class="hero-content">
+                <h1>Collection Enfant 2024</h1>
+                <p class="subtitle">Des vêtements confortables et élégants pour vos petits</p>
+                <div class="hero-features">
+                    <div class="feature">
+                        <i class="fas fa-truck"></i>
+                        <span>Livraison gratuite pour toute commande supérieure à 50$</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-undo"></i>
+                        <span>Retours sous 30 jours</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Paiement sécurisé</span>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <select id="category-select" class="category-select">
+                        <option value="">Choisir une catégorie</option>
+                        <option value="vetements">Vêtements</option>
+                        <option value="chaussures">Chaussures</option>
+                        <option value="bebe">Bébé (0-24 mois)</option>
+                        <option value="enfant">Enfant (2-12 ans)</option>
+                    </select>
+                    <a href="#categories" class="shop-now-btn">Découvrir</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="categories">
+            <div class="section-header">
+                <h2>Nos Collections</h2>
+                <p>Découvrez nos pièces tendances pour toutes les occasions</p>
+            </div>
+            <div class="category-grid"></div>
+        </section>
+
+        <section id="benefits">
+            <div class="benefit-card">
+                <i class="fas fa-heart"></i>
+                <h3>Qualité Premium</h3>
+                <p>Des matériaux doux et confortables</p>
+            </div>
+            <div class="benefit-card">
+                <i class="fas fa-leaf"></i>
+                <h3>Eco-responsable</h3>
+                <p>Collections durables</p>
+            </div>
+            <div class="benefit-card">
+                <i class="fas fa-tag"></i>
+                <h3>Prix Justes</h3>
+                <p>Le meilleur rapport qualité-prix</p>
+            </div>
+        </section>
+
+        <section id="newsletter">
+            <div class="newsletter-content">
+                <h2>Newsletter</h2>
+                <p>Recevez nos nouveautés et offres exclusives</p>
+                <form id="newsletter-form">
+                    <div class="input-with-icon">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" placeholder="Votre email" required>
+                    </div>
+                    <button type="submit">S'inscrire</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>À propos</h3>
+                <p>VALEA KIDS CLOTHING - Votre boutique de mode enfantine</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: valeakidsclothing@gmail.com</p>
+                <p>Tél: (581) 994-6746</p>
+            </div>
+            <div class="footer-section">
+                <h3>Suivez-nous</h3>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/share/19zda7fwo4/"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://wa.me/15819946746"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 VALEA KIDS CLOTHING. Tous droits réservés.</p>
+        </div>
+    </footer>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="script.js"></script>
+</body>
+</html>
