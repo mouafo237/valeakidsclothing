@@ -376,12 +376,30 @@ document.addEventListener('DOMContentLoaded', function() {
                 sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
             },
             {
-                name: "Ensemble Sport",
-                price: "$44.99",
-                image: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f",
+                name: "Jupe Plissée",
+                price: "$26.99",
+                image: "img/j.png",
                 category: "vetements",
-                rating: 5,
-                colors: ["Bleu", "Vert", "Jaune"],
+                rating: 4,
+                colors: ["Rouge", "Bleu", "Vert"],
+                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
+            },
+            {
+                name: "Jupe Plissée",
+                price: "$26.99",
+                image: "img/k.png",
+                category: "vetements",
+                rating: 4,
+                colors: ["Rouge", "Bleu", "Vert"],
+                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
+            },
+            {
+                name: "Jupe Plissée",
+                price: "$26.99",
+                image: "img/l.png",
+                category: "vetements",
+                rating: 4,
+                colors: ["Rouge", "Bleu", "Vert"],
                 sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
             }
         ],
