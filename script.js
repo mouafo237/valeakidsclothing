@@ -333,7 +333,7 @@ document.addEventListener('DOMContentLoaded', function() {
             {
                 name: "Short Sport",
                 price: "$22.99",
-                image: "img/d.png",
+                image: "img/e.png",
                 category: "vetements",
                 rating: 4,
                 colors: ["Bleu", "Vert", "Jaune"],
@@ -342,7 +342,7 @@ document.addEventListener('DOMContentLoaded', function() {
             {
                 name: "Veste Légère",
                 price: "$39.99",
-                image: "img/e.png",
+                image: "img/f.png",
                 category: "vetements",
                 rating: 5,
                 colors: ["Noir", "Gris", "Bleu"],
@@ -351,7 +351,7 @@ document.addEventListener('DOMContentLoaded', function() {
             {
                 name: "Chemise Élégante",
                 price: "$27.99",
-                image: "img/f.png",
+                image: "img/g.png",
                 category: "vetements",
                 rating: 4,
                 colors: ["Blanc", "Bleu", "Rouge"],
@@ -360,7 +360,7 @@ document.addEventListener('DOMContentLoaded', function() {
             {
                 name: "Manteau Hiver",
                 price: "$49.99",
-                image: "img/g.png",
+                image: "img/h.png",
                 category: "vetements",
                 rating: 5,
                 colors: ["Noir", "Gris", "Bleu"],
@@ -369,7 +369,7 @@ document.addEventListener('DOMContentLoaded', function() {
             {
                 name: "Jupe Plissée",
                 price: "$26.99",
-                image: "img/h.png",
+                image: "img/i.png",
                 category: "vetements",
                 rating: 4,
                 colors: ["Rouge", "Bleu", "Vert"],
