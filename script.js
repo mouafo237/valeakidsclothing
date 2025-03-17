@@ -297,7 +297,7 @@ document.addEventListener('DOMContentLoaded', function() {
             {
                 name: "T-shirt Enfant",
                 price: "$19.99",
-                image: "G3.jpeg",
+                image: "img/a.png",
                 category: "vetements",
                 rating: 4,
                 colors: ["Rouge", "Bleu", "Blanc"],
@@ -306,7 +306,7 @@ document.addEventListener('DOMContentLoaded', function() {
             {
                 name: "Robe d'été",
                 price: "$29.99",
-                image: "https://images.unsplash.com/photo-1524920332781-51a3fb93fe40",
+                image: "img/b.png",
                 category: "vetements",
                 rating: 5,
                 colors: ["Rose", "Jaune", "Blanc"],
@@ -315,7 +315,7 @@ document.addEventListener('DOMContentLoaded', function() {
             {
                 name: "Pantalon Jean",
                 price: "$24.99",
-                image: "https://images.unsplash.com/photo-1473366334943-3755951a2e90",
+                image: "img/c.png",
                 category: "vetements",
                 rating: 4,
                 colors: ["Bleu", "Noir", "Gris"],
@@ -324,7 +324,7 @@ document.addEventListener('DOMContentLoaded', function() {
             {
                 name: "Pull Hiver",
                 price: "$34.99",
-                image: "https://images.unsplash.com/photo-1434389677669-e08b4cac3105",
+                image: "img/d.png",
                 category: "vetements",
                 rating: 5,
                 colors: ["Rouge", "Bleu", "Vert"],
@@ -333,7 +333,7 @@ document.addEventListener('DOMContentLoaded', function() {
             {
                 name: "Short Sport",
                 price: "$22.99",
-                image: "https://images.unsplash.com/photo-1591195853828-11db59a44f6b",
+                image: "img/d.png",
                 category: "vetements",
                 rating: 4,
                 colors: ["Bleu", "Vert", "Jaune"],
@@ -342,7 +342,7 @@ document.addEventListener('DOMContentLoaded', function() {
             {
                 name: "Veste Légère",
                 price: "$39.99",
-                image: "https://images.unsplash.com/photo-1499971856191-1a420a42b498",
+                image: "img/e.png",
                 category: "vetements",
                 rating: 5,
                 colors: ["Noir", "Gris", "Bleu"],
@@ -351,7 +351,7 @@ document.addEventListener('DOMContentLoaded', function() {
             {
                 name: "Chemise Élégante",
                 price: "$27.99",
-                image: "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2",
+                image: "img/f.png",
                 category: "vetements",
                 rating: 4,
                 colors: ["Blanc", "Bleu", "Rouge"],
@@ -360,7 +360,7 @@ document.addEventListener('DOMContentLoaded', function() {
             {
                 name: "Manteau Hiver",
                 price: "$49.99",
-                image: "https://images.unsplash.com/photo-1443163521-1bf539c55dd2",
+                image: "img/g.png",
                 category: "vetements",
                 rating: 5,
                 colors: ["Noir", "Gris", "Bleu"],
@@ -369,7 +369,7 @@ document.addEventListener('DOMContentLoaded', function() {
             {
                 name: "Jupe Plissée",
                 price: "$26.99",
-                image: "https://images.unsplash.com/photo-1577900232427-18219b9166a0",
+                image: "img/h.png",
                 category: "vetements",
                 rating: 4,
                 colors: ["Rouge", "Bleu", "Vert"],
