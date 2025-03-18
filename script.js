@@ -459,7 +459,142 @@ document.addEventListener('DOMContentLoaded', function() {
             {
                 name: "Jupe Plissée",
                 price: "$26.99",
+                image: "img/r.png",
+                category: "vetements",
+                rating: 4,
+                colors: ["Rouge", "Bleu", "Vert"],
+                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
+            },
+            {
+                name: "Jupe Plissée",
+                price: "$26.99",
+                image: "img/r.png",
+                category: "vetements",
+                rating: 4,
+                colors: ["Rouge", "Bleu", "Vert"],
+                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
+            },
+            {
+                name: "Jupe Plissée",
+                price: "$26.99",
                 image: "img/s.png",
+                category: "vetements",
+                rating: 4,
+                colors: ["Rouge", "Bleu", "Vert"],
+                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
+            },
+            {
+                name: "Jupe Plissée",
+                price: "$26.99",
+                image: "img/t.png",
+                category: "vetements",
+                rating: 4,
+                colors: ["Rouge", "Bleu", "Vert"],
+                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
+            },
+            {
+                name: "Jupe Plissée",
+                price: "$26.99",
+                image: "img/u.png",
+                category: "vetements",
+                rating: 4,
+                colors: ["Rouge", "Bleu", "Vert"],
+                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
+            },
+            {
+                name: "Jupe Plissée",
+                price: "$26.99",
+                image: "img/v.png",
+                category: "vetements",
+                rating: 4,
+                colors: ["Rouge", "Bleu", "Vert"],
+                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
+            },
+            {
+                name: "Jupe Plissée",
+                price: "$26.99",
+                image: "img/w.png",
+                category: "vetements",
+                rating: 4,
+                colors: ["Rouge", "Bleu", "Vert"],
+                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
+            },
+            {
+                name: "Jupe Plissée",
+                price: "$26.99",
+                image: "img/x.png",
+                category: "vetements",
+                rating: 4,
+                colors: ["Rouge", "Bleu", "Vert"],
+                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
+            },
+            {
+                name: "Jupe Plissée",
+                price: "$26.99",
+                image: "img/y.png",
+                category: "vetements",
+                rating: 4,
+                colors: ["Rouge", "Bleu", "Vert"],
+                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
+            },
+            {
+                name: "Jupe Plissée",
+                price: "$26.99",
+                image: "img/z.png",
+                category: "vetements",
+                rating: 4,
+                colors: ["Rouge", "Bleu", "Vert"],
+                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
+            },
+            {
+                name: "Jupe Plissée",
+                price: "$26.99",
+                image: "img/a1.png",
+                category: "vetements",
+                rating: 4,
+                colors: ["Rouge", "Bleu", "Vert"],
+                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
+            },
+            {
+                name: "Jupe Plissée",
+                price: "$26.99",
+                image: "img/a2.png",
+                category: "vetements",
+                rating: 4,
+                colors: ["Rouge", "Bleu", "Vert"],
+                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
+            },
+            {
+                name: "Jupe Plissée",
+                price: "$26.99",
+                image: "img/a3.png",
+                category: "vetements",
+                rating: 4,
+                colors: ["Rouge", "Bleu", "Vert"],
+                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
+            },
+            {
+                name: "Jupe Plissée",
+                price: "$26.99",
+                image: "img/a4.png",
+                category: "vetements",
+                rating: 4,
+                colors: ["Rouge", "Bleu", "Vert"],
+                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
+            },
+            {
+                name: "Jupe Plissée",
+                price: "$26.99",
+                image: "img/a5.png",
+                category: "vetements",
+                rating: 4,
+                colors: ["Rouge", "Bleu", "Vert"],
+                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
+            },
+            {
+                name: "Jupe Plissée",
+                price: "$26.99",
+                image: "img/a6.png",
                 category: "vetements",
                 rating: 4,
                 colors: ["Rouge", "Bleu", "Vert"],
@@ -486,9 +621,18 @@ document.addEventListener('DOMContentLoaded', function() {
                 sizes: ["26", "27", "28", "29", "30"]
             },
             {
+                name: "Bottes Pluie",
+                price: "$32.99",
+                image: "img/c3.png",
+                category: "chaussures",
+                rating: 5,
+                colors: ["Noir", "Gris", "Bleu"],
+                sizes: ["26", "27", "28", "29", "30"]
+            },
+            {
                 name: "Sneakers Mode",
                 price: "$39.99",
-                image: "img/c3.png",
+                image: "img/c4.png",
                 category: "chaussures",
                 rating: 5,
                 colors: ["Noir", "Gris", "Bleu"],
