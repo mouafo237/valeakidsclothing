@@ -599,6 +599,15 @@ document.addEventListener('DOMContentLoaded', function() {
                 rating: 4,
                 colors: ["Rouge", "Bleu", "Vert"],
                 sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
+            },
+            {
+                name: "Jupe Plissée",
+                price: "$26.99",
+                image: "img/a7.png",
+                category: "vetements",
+                rating: 4,
+                colors: ["Rouge", "Bleu", "Vert"],
+                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
             }
         ],
         chaussures: [
