@@ -393,10 +393,73 @@ document.addEventListener('DOMContentLoaded', function() {
                 colors: ["Rouge", "Bleu", "Vert"],
                 sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
             },
-            {
+             {
                 name: "Jupe Plissée",
                 price: "$26.99",
                 image: "img/l.png",
+                category: "vetements",
+                rating: 4,
+                colors: ["Rouge", "Bleu", "Vert"],
+                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
+            },
+             {
+                name: "Jupe Plissée",
+                price: "$26.99",
+                image: "img/m.png",
+                category: "vetements",
+                rating: 4,
+                colors: ["Rouge", "Bleu", "Vert"],
+                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
+            },
+             {
+                name: "Jupe Plissée",
+                price: "$26.99",
+                image: "img/n.png",
+                category: "vetements",
+                rating: 4,
+                colors: ["Rouge", "Bleu", "Vert"],
+                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
+            },
+             {
+                name: "Jupe Plissée",
+                price: "$26.99",
+                image: "img/o.png",
+                category: "vetements",
+                rating: 4,
+                colors: ["Rouge", "Bleu", "Vert"],
+                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
+            },
+             {
+                name: "Jupe Plissée",
+                price: "$26.99",
+                image: "img/p.png",
+                category: "vetements",
+                rating: 4,
+                colors: ["Rouge", "Bleu", "Vert"],
+                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
+            },
+             {
+                name: "Jupe Plissée",
+                price: "$26.99",
+                image: "img/q.png",
+                category: "vetements",
+                rating: 4,
+                colors: ["Rouge", "Bleu", "Vert"],
+                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
+            },
+             {
+                name: "Jupe Plissée",
+                price: "$26.99",
+                image: "img/r.png",
+                category: "vetements",
+                rating: 4,
+                colors: ["Rouge", "Bleu", "Vert"],
+                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
+            },
+            {
+                name: "Jupe Plissée",
+                price: "$26.99",
+                image: "img/s.png",
                 category: "vetements",
                 rating: 4,
                 colors: ["Rouge", "Bleu", "Vert"],
@@ -407,91 +470,28 @@ document.addEventListener('DOMContentLoaded', function() {
             {
                 name: "Baskets Sport",
                 price: "$34.99",
-                image: "https://images.unsplash.com/photo-1514989940723-e8e51635b782",
+                image: "img/c1.png",
                 category: "chaussures",
                 rating: 4,
                 colors: ["Blanc", "Noir", "Gris"],
-                sizes: ["26", "27", "28", "29", "30"]
-            },
-            {
-                name: "Sandales d'été",
-                price: "$24.99",
-                image: "https://images.unsplash.com/photo-1621996659490-11db59a44f6b",
-                category: "chaussures",
-                rating: 5,
-                colors: ["Rose", "Jaune", "Blanc"],
-                sizes: ["26", "27", "28", "29", "30"]
-            },
-            {
-                name: "Chaussures École",
-                price: "$29.99",
-                image: "https://images.unsplash.com/photo-1571141412904-2d4fc21007ea",
-                category: "chaussures",
-                rating: 4,
-                colors: ["Noir", "Bleu", "Rouge"],
                 sizes: ["26", "27", "28", "29", "30"]
             },
             {
                 name: "Bottes Pluie",
                 price: "$32.99",
-                image: "https://images.unsplash.com/photo-1520639888713-7851133b1ed0",
+                image: "img/c2.png",
                 category: "chaussures",
                 rating: 5,
                 colors: ["Noir", "Gris", "Bleu"],
-                sizes: ["26", "27", "28", "29", "30"]
-            },
-            {
-                name: "Ballerines",
-                price: "$27.99",
-                image: "https://images.unsplash.com/photo-1543163521-1bf539c55dd2",
-                category: "chaussures",
-                rating: 4,
-                colors: ["Blanc", "Noir", "Rouge"],
                 sizes: ["26", "27", "28", "29", "30"]
             },
             {
                 name: "Sneakers Mode",
                 price: "$39.99",
-                image: "https://images.unsplash.com/photo-1549298916-b41d501d3772",
+                image: "img/c3.png",
                 category: "chaussures",
                 rating: 5,
                 colors: ["Noir", "Gris", "Bleu"],
-                sizes: ["26", "27", "28", "29", "30"]
-            },
-            {
-                name: "Chaussons Maison",
-                price: "$19.99",
-                image: "https://images.unsplash.com/photo-1531159557908-e56d11a3020e",
-                category: "chaussures",
-                rating: 4,
-                colors: ["Blanc", "Noir", "Gris"],
-                sizes: ["26", "27", "28", "29", "30"]
-            },
-            {
-                name: "Sandales Sport",
-                price: "$29.99",
-                image: "https://images.unsplash.com/photo-1562183241-840b8af0721e",
-                category: "chaussures",
-                rating: 5,
-                colors: ["Rose", "Jaune", "Blanc"],
-                sizes: ["26", "27", "28", "29", "30"]
-            },
-            {
-                name: "Bottines Hiver",
-                price: "$44.99",
-                image: "https://images.unsplash.com/photo-1542840410-3092f99611a3",
-                category: "chaussures",
-                rating: 4,
-                colors: ["Noir", "Gris", "Bleu"],
-                sizes: ["26", "27", "28", "29", "30"]
-            },
-            {
-                name: "Tennis Toile",
-                price: "$26.99",
-                image: "https://images.unsplash.com//photo-1525966222134-fcfa99b8ae77",
-                category: "chaussures",
-                rating: 5,
-                colors: ["Blanc", "Noir", "Rouge"],
                 sizes: ["26", "27", "28", "29", "30"]
             }
         ],
