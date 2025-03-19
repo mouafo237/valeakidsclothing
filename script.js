@@ -621,7 +621,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 sizes: ["26", "27", "28", "29", "30"]
             }
         ],
-        bebe: [
+        lunettes: [
             {
                 name: "Body Bébé",
                 price: "$14.99",
@@ -713,7 +713,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 sizes: ["0-3 mois", "3-6 mois", "6-9 mois", "9-12 mois"]
             }
         ],
-        enfant: [
+        accessoires: [
             {
                 name: "Ensemble Sport",
                 price: "$39.99",
