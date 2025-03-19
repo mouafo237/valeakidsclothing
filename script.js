@@ -1,3 +1,10 @@
+const titles = [
+    "Collection Printemps-Été 2024",
+    "Nouvelle Collection Kids",
+    "Style Enfant Tendance",
+    "Mode Junior 2024"
+];
+
 const slides = [
     {
         image: 'https://images.unsplash.com/photo-1471286174890-9c112ffca5b4',
@@ -22,56 +29,34 @@ const slides = [
 ];
 
 document.addEventListener('DOMContentLoaded', function() {
-    // Add slideshow functionality
-    const heroSection = document.querySelector('.new-hero');
-    const slideshow = document.createElement('div');
-    slideshow.className = 'slideshow';
-    
-    // Create slides
-    slides.forEach((slide, index) => {
-        const slideElement = document.createElement('div');
-        slideElement.className = `slide ${index === 0 ? 'active' : ''}`;
-        slideElement.style.backgroundImage = `linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(${slide.image})`;
-        slideshow.appendChild(slideElement);
-    });
-    
-    // Insert slideshow before hero content
-    heroSection.insertBefore(slideshow, heroSection.firstChild);
-    
-    const titleElement = heroSection.querySelector('h1');
-    const subtitleElement = heroSection.querySelector('.subtitle');
-    
-    let currentSlide = 0;
-    
-    function updateSlide() {
-        // Update slides
-        document.querySelectorAll('.slide').forEach((slide, index) => {
-            slide.classList.toggle('active', index === currentSlide);
-        });
-        
-        // Update text with animation
-        titleElement.classList.remove('active');
-        subtitleElement.classList.remove('active');
+    const heroTitle = document.querySelector('.hero-content h1');
+    let currentTitleIndex = 0;
+
+    function updateTitle() {
+        heroTitle.style.opacity = '0';
+        heroTitle.style.transform = 'translateX(-50px)';
         
         setTimeout(() => {
-            titleElement.textContent = slides[currentSlide].title;
-            subtitleElement.textContent = slides[currentSlide].subtitle;
-            
-            titleElement.classList.add('active');
-            subtitleElement.classList.add('active');
+            currentTitleIndex = (currentTitleIndex + 1) % titles.length;
+            heroTitle.textContent = titles[currentTitleIndex];
+            heroTitle.style.opacity = '1';
+            heroTitle.style.transform = 'translateX(0)';
         }, 500);
-        
-        currentSlide = (currentSlide + 1) % slides.length;
     }
-    
-    // Add active class to text elements initially
-    titleElement.classList.add('slide-text');
-    subtitleElement.classList.add('slide-text');
-    titleElement.classList.add('active');
-    subtitleElement.classList.add('active');
-    
-    // Start slideshow
-    setInterval(updateSlide, 5000);
+
+    // Change title every 3 seconds
+    setInterval(updateTitle, 3000);
+
+    // Add hover effect for title
+    heroTitle.addEventListener('mouseover', function() {
+        this.style.transform = 'scale(1.05)';
+        this.style.textShadow = '2px 2px 8px rgba(255, 107, 107, 0.4)';
+    });
+
+    heroTitle.addEventListener('mouseout', function() {
+        this.style.transform = 'scale(1)';
+        this.style.textShadow = '2px 2px 4px rgba(0, 0, 0, 0.1)';
+    });
 
     const cartCountElement = document.querySelector('.cart-count');
     const cartIcon = document.querySelector('.cart');
@@ -244,7 +229,13 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="form-group">
                         <div class="input-with-icon">
                             <i class="fas fa-user"></i>
-                            <input type="text" id="name" required placeholder="Votre nom">
+                            <input type="text" id="firstname" required placeholder="Votre prénom">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-with-icon">
+                            <i class="fas fa-user"></i>
+                            <input type="text" id="lastname" required placeholder="Votre nom">
                         </div>
                     </div>
                     <div class="form-group">
