@@ -664,7 +664,7 @@ document.addEventListener('DOMContentLoaded', function() {
             {
                 name: "Ensemble Sport",
                 price: "$39.99",
-                image: "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2",
+                image: "img/sac1.png",
                 category: "enfant",
                 rating: 4,
                 colors: ["Bleu", "Vert", "Jaune"],
@@ -673,7 +673,7 @@ document.addEventListener('DOMContentLoaded', function() {
             {
                 name: "Veste Mi-saison",
                 price: "$44.99",
-                image: "https://images.unsplash.com/photo-1471286174890-9c112ffca5b4",
+                image: "img/sac2.png",
                 category: "enfant",
                 rating: 5,
                 colors: ["Noir", "Gris", "Bleu"],
@@ -682,7 +682,7 @@ document.addEventListener('DOMContentLoaded', function() {
             {
                 name: "Jean Confort",
                 price: "$29.99",
-                image: "https://images.unsplash.com/photo-1473366334943-3755951a2e90",
+                image: "img/sac3.png",
                 category: "enfant",
                 rating: 4,
                 colors: ["Bleu", "Noir", "Gris"],
@@ -691,66 +691,13 @@ document.addEventListener('DOMContentLoaded', function() {
             {
                 name: "T-shirt Imprimé",
                 price: "$19.99",
-                image: "https://images.unsplash.com/photo-1519278409-1f56fdda7fe5",
+                image: "img/sac4.png",
                 category: "enfant",
                 rating: 5,
                 colors: ["Blanc", "Rouge", "Bleu"],
                 sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
-            },
-            {
-                name: "Short Sport",
-                price: "$24.99",
-                image: "https://images.unsplash.com/photo-1591195853828-11db59a44f6b",
-                category: "enfant",
-                rating: 4,
-                colors: ["Bleu", "Vert", "Jaune"],
-                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
-            },
-            {
-                name: "Pull Fantaisie",
-                price: "$34.99",
-                image: "https://images.unsplash.com/photo-1434389677669-e08b4cac3105",
-                category: "enfant",
-                rating: 5,
-                colors: ["Rouge", "Bleu", "Vert"],
-                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
-            },
-            {
-                name: "Robe Festive",
-                price: "$42.99",
-                image: "https://images.unsplash.com/photo-1524920332781-51a3fb93fe40",
-                category: "enfant",
-                rating: 4,
-                colors: ["Rose", "Jaune", "Blanc"],
-                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
-            },
-            {
-                name: "Pantalon Cargo",
-                price: "$32.99",
-                image: "https://images.unsplash.com/photo-1473366334943-3755951a2e90",
-                category: "enfant",
-                rating: 5,
-                colors: ["Bleu", "Noir", "Gris"],
-                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
-            },
-            {
-                name: "Blouson Léger",
-                price: "$39.99",
-                image: "https://images.unsplash.com/photo-1499971856191-1a420a42b498",
-                category: "enfant",
-                rating: 4,
-                colors: ["Noir", "Gris", "Bleu"],
-                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
-            },
-            {
-                name: "Chemise Casual",
-                price: "$27.99",
-                image: "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2",
-                category: "enfant",
-                rating: 5,
-                colors: ["Blanc", "Bleu", "Rouge"],
-                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
             }
+            
         ]
     };
 
