@@ -134,77 +134,89 @@ body {
 }
 
 /* New Hero Section */
-.new-hero {
-    position: relative;
-    height: 100vh;
-    overflow: hidden;
-    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
-                url('https://images.unsplash.com/photo-1543087903-1ac2ec7aa8c5') center/cover;
+.split-hero {
     display: flex;
-    align-items: center;
+    min-height: 100vh;
+    margin-top: 60px;
+    background: var(--white);
+}
+
+.hero-image {
+    flex: 1;
+    overflow: hidden;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.hero-content {
+    flex: 1;
+    padding: 2rem 4rem;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    text-align: center;
-    padding: 2rem;
-    margin-top: 80px;
+    background: linear-gradient(to right, #fff, #f8f9fa);
+    gap: 1.5rem;
 }
 
-.slideshow {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.slide {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.slide.active {
-    opacity: 1;
-}
-
-.new-hero .hero-content {
-    position: relative;
-    z-index: 2;
-    background: rgba(255, 255, 255, 0.9);
-    padding: 3rem;
-    border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.new-hero h1 {
+.hero-content h1 {
     font-size: 3.5rem;
-    color: var(--primary-color);
-    margin-bottom: 1rem;
+    background: linear-gradient(45deg, var(--primary-color), #4a90e2);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+    transition: all 0.5s ease;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    cursor: pointer;
 }
 
-.new-hero .subtitle {
+@keyframes titleSlide {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.hero-content h1:hover {
+    animation: titlePulse 2s infinite;
+}
+
+@keyframes titlePulse {
+    0% {
+        transform: scale(1);
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    50% {
+        transform: scale(1.05);
+        text-shadow: 2px 2px 8px rgba(255, 107, 107, 0.4);
+    }
+    100% {
+        transform: scale(1);
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+}
+
+.hero-content .subtitle {
     font-size: 1.5rem;
     color: var(--text-color);
     margin-bottom: 2rem;
-}
-
-.slide-text {
+    line-height: 1.6;
     opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.5s ease, transform 0.5s ease;
-}
-
-.slide-text.active {
-    opacity: 1;
-    transform: translateY(0);
+    animation: fadeInUp 0.8s forwards 0.3s;
 }
 
 .hero-features {
@@ -212,6 +224,8 @@ body {
     justify-content: center;
     gap: 2rem;
     margin: 2rem 0;
+    opacity: 0;
+    animation: fadeInUp 0.8s forwards 0.6s;
 }
 
 .feature {
@@ -229,7 +243,9 @@ body {
     display: flex;
     gap: 1rem;
     justify-content: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
+    opacity: 0;
+    animation: fadeInUp 0.8s forwards 0.9s;
 }
 
 .shop-now-btn {
@@ -245,6 +261,66 @@ body {
 .shop-now-btn:hover {
     background-color: #4a90e2;
     transform: translateY(-2px);
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 992px) {
+    .split-hero {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .hero-image {
+        height: 50vh;
+    }
+
+    .hero-content {
+        padding: 2rem;
+        gap: 1rem;
+    }
+
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-content .subtitle {
+        font-size: 1.2rem;
+    }
+}
+
+/* Company Info */
+.company-info {
+    background-color: var(--light-gray);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+
+.company-info h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.company-info p {
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.company-info i {
+    color: var(--primary-color);
+    width: 20px;
 }
 
 /* Benefits Section */
@@ -863,30 +939,6 @@ footer {
     .cart-panel {
         width: 100%;
         right: -100%;
-    }
-}
-
-/* Responsive adjustments for new hero section */
-@media (max-width: 768px) {
-    .new-hero h1 {
-        font-size: 2.5rem;
-    }
-
-    .new-hero .subtitle {
-        font-size: 1.2rem;
-    }
-
-    .hero-features {
-        flex-direction: column;
-        gap: 1rem;
-    }
-
-    .hero-buttons {
-        flex-direction: column;
-    }
-
-    .benefit-card {
-        padding: 1.5rem;
     }
 }
 
