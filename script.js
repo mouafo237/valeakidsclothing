@@ -614,9 +614,9 @@ document.addEventListener('DOMContentLoaded', function() {
         ],
         lunettes: [
             {
-                name: "Body Bébé",
+                name: "Lunette 1",
                 price: "$14.99",
-                image: "https://images.unsplash.com/photo-1522771930-78848d163029",
+                image: "img/l1.png",
                 category: "bebe",
                 rating: 5,
                 colors: ["Blanc", "Rose", "Bleu"],
@@ -625,7 +625,7 @@ document.addEventListener('DOMContentLoaded', function() {
             {
                 name: "Pyjama Bébé",
                 price: "$19.99",
-                image: "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4",
+                image: "img/l2.png",
                 category: "bebe",
                 rating: 4,
                 colors: ["Blanc", "Noir", "Gris"],
@@ -634,7 +634,7 @@ document.addEventListener('DOMContentLoaded', function() {
             {
                 name: "Grenouillère",
                 price: "$22.99",
-                image: "https://images.unsplash.com/photo-1519689680058-324335c77eba",
+                image: "img/l3.png",
                 category: "bebe",
                 rating: 5,
                 colors: ["Rose", "Jaune", "Blanc"],
@@ -643,7 +643,7 @@ document.addEventListener('DOMContentLoaded', function() {
             {
                 name: "Ensemble Naissance",
                 price: "$29.99",
-                image: "https://images.unsplash.com/photo-1555252333-9f8e92e65df9",
+                image: "img/l4.png",
                 category: "bebe",
                 rating: 4,
                 colors: ["Blanc", "Noir", "Gris"],
@@ -652,57 +652,13 @@ document.addEventListener('DOMContentLoaded', function() {
             {
                 name: "Bavoir Pack",
                 price: "$12.99",
-                image: "https://images.unsplash.com/photo-1519689680058-324335c77eba",
+                image: "img/l5.png",
                 category: "bebe",
                 rating: 5,
                 colors: ["Blanc", "Rose", "Bleu"],
-                sizes: ["0-3 mois", "3-6 mois", "6-9 mois", "9-12 mois"]
-            },
-            {
-                name: "Bonnet Bébé",
-                price: "$9.99",
-                image: "https://images.unsplash.com/photo-1555252333-9f8e92e65df9",
-                category: "bebe",
-                rating: 4,
-                colors: ["Blanc", "Noir", "Gris"],
-                sizes: ["0-3 mois", "3-6 mois", "6-9 mois", "9-12 mois"]
-            },
-            {
-                name: "Chaussettes Pack",
-                price: "$11.99",
-                image: "https://images.unsplash.com/photo-1522771930-78848d163029",
-                category: "bebe",
-                rating: 5,
-                colors: ["Blanc", "Rose", "Bleu"],
-                sizes: ["0-3 mois", "3-6 mois", "6-9 mois", "9-12 mois"]
-            },
-            {
-                name: "Manteau Bébé",
-                price: "$34.99",
-                image: "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4",
-                category: "bebe",
-                rating: 4,
-                colors: ["Noir", "Gris", "Bleu"],
-                sizes: ["0-3 mois", "3-6 mois", "6-9 mois", "9-12 mois"]
-            },
-            {
-                name: "Ensemble été",
-                price: "$24.99",
-                image: "https://images.unsplash.com/photo-1519689680058-324335c77eba",
-                category: "bebe",
-                rating: 5,
-                colors: ["Rose", "Jaune", "Blanc"],
-                sizes: ["0-3 mois", "3-6 mois", "6-9 mois", "9-12 mois"]
-            },
-            {
-                name: "Gigoteuse",
-                price: "$29.99",
-                image: "https://images.unsplash.com/photo-1555252333-9f8e92e65df9",
-                category: "bebe",
-                rating: 4,
-                colors: ["Blanc", "Noir", "Gris"],
                 sizes: ["0-3 mois", "3-6 mois", "6-9 mois", "9-12 mois"]
             }
+            
         ],
         accessoires: [
             {
