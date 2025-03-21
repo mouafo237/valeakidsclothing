@@ -358,7 +358,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
             },
             {
-                name: "Ensemble sportif "Tommy Trendy",
+                name: "Ensemble sportif Tommy Trendy",
                 price: "$26.99",
                 image: "img/i.png",
                 category: "vetements",
