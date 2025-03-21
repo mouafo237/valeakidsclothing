@@ -291,7 +291,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 image: "img/a.png",
                 category: "vetements",
                 rating: 4,
-                colors: [" Crème et Marron"],
+                colors: ["exclusive"],
                 sizes: ["6-7 ans", "8-9 ans"]
             },
             {
@@ -300,20 +300,20 @@ document.addEventListener('DOMContentLoaded', function() {
                 image: "img/b.png",
                 category: "vetements",
                 rating: 5,
-                colors: ["t-shirt blanc un short vert à carreaux blancs"],
-                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
-            },
-            {
-                name: "Ensemble Racing Kid",
-                price: "$24.99",
-                image: "img/c.png",
-                category: "vetements",
-                rating: 4,
-                colors: ["Bleu", "Noir", "Gris"],
+                colors: ["exclusive"],
                 sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
             },
             {
                 name: "Ensemble Géométrique Chic",
+                price: "$24.99",
+                image: "img/c.png",
+                category: "vetements",
+                rating: 4,
+                colors: ["exclusive "],
+                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
+            },
+            {
+                name: "s",
                 price: "$34.99",
                 image: "img/d.png",
                 category: "vetements",
