@@ -358,21 +358,21 @@ document.addEventListener('DOMContentLoaded', function() {
                 sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
             },
             {
-                name: "Jupe Plissée",
+                name: "Ensemble sportif "Tommy Trendy"",
                 price: "$26.99",
                 image: "img/i.png",
                 category: "vetements",
                 rating: 4,
-                colors: ["Rouge", "Bleu", "Vert"],
-                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
+                colors: ["exclusive"],
+                sizes: ["6-7 ans", "8-9 ans"]
             },
             {
-                name: "Jupe Plissée",
+                name: "Robe "Deni",
                 price: "$26.99",
                 image: "img/j.png",
                 category: "vetements",
                 rating: 4,
-                colors: ["Rouge", "Bleu", "Vert"],
+                colors: ["exclusive"],
                 sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
             },
             {
