@@ -313,48 +313,48 @@ document.addEventListener('DOMContentLoaded', function() {
                 sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
             },
             {
-                name: "s",
+                name: "Ensemble Streetwear Junior",
                 price: "$34.99",
                 image: "img/d.png",
                 category: "vetements",
                 rating: 5,
-                colors: ["rouge, noir et blanc"],
+                colors: ["exclusive"],
                 sizes: ["4-5 ans", "6-7 ans", "8-9 ans"]
             },
             {
-                name: "Short Sport",
+                name: "Ensemble Rose Poudré Fille",
                 price: "$22.99",
                 image: "img/e.png",
                 category: "vetements",
                 rating: 4,
-                colors: ["Bleu", "Vert", "Jaune"],
-                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
+                colors: ["Rose", "Noir", "Jaune"],
+                sizes: ["6-7 ans", "8-9 ans"]
             },
             {
-                name: "Veste Légère",
+                name: "Tenue Écolière Chic",
                 price: "$39.99",
                 image: "img/f.png",
                 category: "vetements",
                 rating: 5,
-                colors: ["Noir", "Gris", "Bleu"],
+                colors: ["exclusive"],
                 sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
             },
             {
-                name: "Chemise Élégante",
+                name: "Costume Élégant Garçon",
                 price: "$27.99",
                 image: "img/g.png",
                 category: "vetements",
                 rating: 4,
-                colors: ["Blanc", "Bleu", "Rouge"],
+                colors: ["exclusive"],
                 sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
             },
             {
-                name: "Manteau Hiver",
+                name: "Ensemble Sportswear Fille - Rose Cœur & Casquette",
                 price: "$49.99",
                 image: "img/h.png",
                 category: "vetements",
                 rating: 5,
-                colors: ["Noir", "Gris", "Bleu"],
+                colors: ["exclusive"],
                 sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
             },
             {
