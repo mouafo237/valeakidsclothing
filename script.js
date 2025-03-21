@@ -367,7 +367,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 sizes: ["6-7 ans", "8-9 ans"]
             },
             {
-                name: "Robe "Deni",
+                name: "Robe Deni",
                 price: "$26.99",
                 image: "img/j.png",
                 category: "vetements",
