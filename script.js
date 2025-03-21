@@ -376,13 +376,13 @@ document.addEventListener('DOMContentLoaded', function() {
                 sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
             },
             {
-                name: "Jupe Plissée",
+                name: "Tenue Glamour Kids",
                 price: "$26.99",
                 image: "img/k.png",
                 category: "vetements",
                 rating: 4,
-                colors: ["Rouge", "Bleu", "Vert"],
-                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
+                colors: ["exclusive"],
+                sizes: ["4-5 ans", "6-7 ans", "8-9 ans"]
             },
              {
                 name: "Kit Street Bear Flex",
@@ -394,22 +394,22 @@ document.addEventListener('DOMContentLoaded', function() {
                 sizes: ["4-5 ans", "6-7 ans", "8-9 ans"]
             },
              {
-                name: "Jupe Plissée",
+                name: "Ensemble Royal Kids",
                 price: "$26.99",
                 image: "img/m.png",
                 category: "vetements",
                 rating: 4,
-                colors: ["Rouge", "Bleu", "Vert"],
-                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
+                colors: ["Vert", "Bleu"],
+                sizes: ["4-5 ans", "6-7 ans", "8-9 ans"]
             },
              {
-                name: "Jupe Plissée",
+                name: "Tenue Royal Kids Bleu",
                 price: "$26.99",
                 image: "img/n.png",
                 category: "vetements",
                 rating: 4,
-                colors: ["Rouge", "Bleu", "Vert"],
-                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
+                colors: ["Bleu", "Vert"],
+                sizes: ["6-7 ans", "8-9 ans"]
             },
              {
                 name: "Jupe Plissée",
