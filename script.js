@@ -286,13 +286,13 @@ document.addEventListener('DOMContentLoaded', function() {
     const products = {
         vetements: [
             {
-                name: "T-shirt Enfant",
+                name: "Duo Chic LV",
                 price: "$19.99",
                 image: "img/a.png",
                 category: "vetements",
                 rating: 4,
-                colors: ["Rouge", "Bleu", "Blanc"],
-                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
+                colors: ["Homme", "Femme"],
+                sizes: ["6-7 ans", "8-9 ans"]
             },
             {
                 name: "Robe d'été",
@@ -304,7 +304,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
             },
             {
-                name: "Pantalon Jean",
+                name: "Ensemble Racing Kid",
                 price: "$24.99",
                 image: "img/c.png",
                 category: "vetements",
