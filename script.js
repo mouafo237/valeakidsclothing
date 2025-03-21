@@ -291,16 +291,16 @@ document.addEventListener('DOMContentLoaded', function() {
                 image: "img/a.png",
                 category: "vetements",
                 rating: 4,
-                colors: ["Homme", "Femme"],
+                colors: [" Crème et Marron"],
                 sizes: ["6-7 ans", "8-9 ans"]
             },
             {
-                name: "Robe d'été",
+                name: "Ensemble Racing Kid",
                 price: "$29.99",
                 image: "img/b.png",
                 category: "vetements",
                 rating: 5,
-                colors: ["Rose", "Jaune", "Blanc"],
+                colors: ["t-shirt blanc un short vert à carreaux blancs"],
                 sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
             },
             {
@@ -313,13 +313,13 @@ document.addEventListener('DOMContentLoaded', function() {
                 sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
             },
             {
-                name: "Pull Hiver",
+                name: "Ensemble Géométrique Chic",
                 price: "$34.99",
                 image: "img/d.png",
                 category: "vetements",
                 rating: 5,
-                colors: ["Rouge", "Bleu", "Vert"],
-                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
+                colors: ["rouge, noir et blanc"],
+                sizes: ["4-5 ans", "6-7 ans", "8-9 ans"]
             },
             {
                 name: "Short Sport",
