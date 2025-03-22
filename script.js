@@ -576,16 +576,16 @@ document.addEventListener('DOMContentLoaded', function() {
         ],
         chaussures: [
             {
-                name: "Baskets Sport",
+                name: "Bottines Marron Zara",
                 price: "$34.99",
                 image: "img/c1.png",
                 category: "chaussures",
                 rating: 4,
-                colors: ["Blanc", "Noir", "Gris"],
+                colors: ["exclusive"],
                 sizes: ["26", "27", "28", "29", "30"]
             },
             {
-                name: "Bottes Pluie",
+                name: "Samba Bleu Rose",
                 price: "$32.99",
                 image: "img/c2.png",
                 category: "chaussures",
@@ -594,7 +594,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 sizes: ["26", "27", "28", "29", "30"]
             },
             {
-                name: "Bottes Pluie",
+                name: "Pack Adidas",
                 price: "$32.99",
                 image: "img/c3.png",
                 category: "chaussures",
@@ -603,12 +603,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 sizes: ["26", "27", "28", "29", "30"]
             },
             {
-                name: "Sneakers Mode",
+                name: "Adidas Rouge & Blanc",
                 price: "$39.99",
                 image: "img/c4.png",
                 category: "chaussures",
                 rating: 5,
-                colors: ["Noir", "Gris", "Bleu"],
+                colors: ["exclusive"],
                 sizes: ["26", "27", "28", "29", "30"]
             }
         ],
