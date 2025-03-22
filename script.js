@@ -653,21 +653,21 @@ document.addEventListener('DOMContentLoaded', function() {
         ],
         accessoires: [
             {
-                name: "Ensemble Sport",
+                name: "Sac Arc-en-Ciel",
                 price: "$39.99",
                 image: "img/sac1.png",
                 category: "enfant",
                 rating: 4,
-                colors: ["Bleu", "Vert", "Jaune"],
+                colors: ["orange", "jaune", "rose", "vert", "noir"],
                 sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
             },
             {
-                name: "Veste Mi-saison",
+                name: "Sac Fendi Chic",
                 price: "$44.99",
                 image: "img/sac2.png",
                 category: "enfant",
                 rating: 5,
-                colors: ["Noir", "Gris", "Bleu"],
+                colors: ["marron", "beige", "rose pâle", "rose vif"],
                 sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
             },
             {
