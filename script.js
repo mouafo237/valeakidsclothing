@@ -614,21 +614,21 @@ document.addEventListener('DOMContentLoaded', function() {
         ],
         lunettes: [
             {
-                name: "Lunette 1",
+                name: "Lunettes Rose Chic",
                 price: "$14.99",
                 image: "img/l1.png",
                 category: "bebe",
                 rating: 5,
-                colors: ["Blanc", "Rose", "Bleu"],
+                colors: ["Rose", "blanc", "Bleu"],
                 sizes: ["0-3 mois", "3-6 mois", "6-9 mois", "9-12 mois"]
             },
             {
-                name: "Pyjama Bébé",
+                name: "Lunettes Violet Chic",
                 price: "$19.99",
                 image: "img/l2.png",
                 category: "bebe",
                 rating: 4,
-                colors: ["Blanc", "Noir", "Gris"],
+                colors: ["Violet", "Noir", "Gris"],
                 sizes: ["0-3 mois", "3-6 mois", "6-9 mois", "9-12 mois"]
             },
             {
