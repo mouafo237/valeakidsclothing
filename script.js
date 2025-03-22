@@ -295,7 +295,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 sizes: ["6-7 ans", "8-9 ans"]
             },
             {
-                name: "Ensemble Racing Kid",
+                name: "Racing Kid",
                 price: "$29.99",
                 image: "img/b.png",
                 category: "vetements",
@@ -304,7 +304,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
             },
             {
-                name: "Ensemble Géométrique Chic",
+                name: "Geo Pop Kids Set",
                 price: "$24.99",
                 image: "img/c.png",
                 category: "vetements",
