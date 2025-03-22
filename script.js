@@ -448,49 +448,49 @@ document.addEventListener('DOMContentLoaded', function() {
                 sizes: ["4-5 ans", "6-7 ans", "8-9 ans"]
             },
             {
-                name: "Jupe Plissée",
+                name: "Versace Kids Baroque Set",
                 price: "$26.99",
                 image: "img/s.png",
                 category: "vetements",
                 rating: 4,
-                colors: ["Rouge", "Bleu", "Vert"],
+                colors: ["exclusive"],
                 sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
             },
             {
-                name: "Jupe Plissée",
+                name: "Petit Rubis Casual",
                 price: "$26.99",
                 image: "img/t.png",
                 category: "vetements",
                 rating: 4,
-                colors: ["Rouge", "Bleu", "Vert"],
-                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
+                colors: ["exclusive"],
+                sizes: ["6-7 ans", "8-9 ans"]
             },
             {
-                name: "Jupe Plissée",
+                name: "Tommy Junior Denim Vibes",
                 price: "$26.99",
                 image: "img/u.png",
                 category: "vetements",
                 rating: 4,
-                colors: ["Rouge", "Bleu", "Vert"],
+                colors: ["exclusive"],
                 sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
             },
             {
-                name: "Jupe Plissée",
+                name: "Prada Kids Cargo Chic",
                 price: "$26.99",
                 image: "img/v.png",
                 category: "vetements",
                 rating: 4,
-                colors: ["Rouge", "Bleu", "Vert"],
-                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
+                colors: ["exclusive"],
+                sizes: ["4-5 ans", "6-7 ans", "8-9 ans"]
             },
             {
-                name: "Jupe Plissée",
+                name: "Petit Gucci Beige Luxe",
                 price: "$26.99",
                 image: "img/x.png",
                 category: "vetements",
                 rating: 4,
-                colors: ["Rouge", "Bleu", "Vert"],
-                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
+                colors: ["exclusive"],
+                sizes: ["6-7 ans", "8-9 ans"]
             },
             {
                 name: "Jupe Plissée",
