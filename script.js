@@ -421,31 +421,31 @@ document.addEventListener('DOMContentLoaded', function() {
                 sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
             },
              {
-                name: "Jupe Plissée",
+                name: "Ensemble Sport Luxe",
                 price: "$26.99",
                 image: "img/p.png",
                 category: "vetements",
                 rating: 4,
-                colors: ["Rouge", "Bleu", "Vert"],
-                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
+                colors: ["exclusive"],
+                sizes: ["4-5 ans", "6-7 ans", "8-9 ans"]
             },
              {
-                name: "Jupe Plissée",
+                name: "Style Luxe Kidswear",
                 price: "$26.99",
                 image: "img/q.png",
                 category: "vetements",
                 rating: 4,
-                colors: ["Rouge", "Bleu", "Vert"],
-                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
+                colors: ["exclusive"],
+                sizes: ["4-5 ans", "6-7 ans", "8-9 ans"]
             },
             {
-                name: "Jupe Plissée",
+                name: "Tenue Smart Chic Junior",
                 price: "$26.99",
                 image: "img/r.png",
                 category: "vetements",
                 rating: 4,
-                colors: ["Rouge", "Bleu", "Vert"],
-                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
+                colors: ["exclusive"],
+                sizes: ["4-5 ans", "6-7 ans", "8-9 ans"]
             },
             {
                 name: "Jupe Plissée",
