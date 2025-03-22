@@ -30,7 +30,7 @@ const slides = [
 
 document.addEventListener('DOMContentLoaded', function() {
     const heroTitle = document.querySelector('.hero-content h1');
-    const SHEETDB_URL = "https://sheetdb.io/api/v1/0ntixpt0eb4wt"; // Remplacez par votre API Key
+    const SHEETDB_URL = "https://sheetdb.io/api/v1/yrhtdlzvcoq16"; // Remplacez par votre API Key
     let currentTitleIndex = 0;
 
     function updateTitle() {
