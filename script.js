@@ -671,16 +671,16 @@ document.addEventListener('DOMContentLoaded', function() {
                 sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
             },
             {
-                name: "Jean Confort",
+                name: "Sac à main mini style",
                 price: "$29.99",
                 image: "img/sac3.png",
                 category: "enfant",
                 rating: 4,
-                colors: ["Bleu", "Noir", "Gris"],
+                colors: ["Noir", "Rose pâle", "Beige", "Violet lavande"],
                 sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
             },
             {
-                name: "T-shirt Imprimé",
+                name: "Sac Pop It Licorne Arc-en-Ciel",
                 price: "$19.99",
                 image: "img/sac4.png",
                 category: "enfant",
