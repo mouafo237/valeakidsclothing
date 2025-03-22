@@ -493,48 +493,48 @@ document.addEventListener('DOMContentLoaded', function() {
                 sizes: ["6-7 ans", "8-9 ans"]
             },
             {
-                name: "Jupe Plissée",
+                name: "Burberry Kids Red Denim Set",
                 price: "$26.99",
                 image: "img/y.png",
                 category: "vetements",
                 rating: 4,
-                colors: ["Rouge", "Bleu", "Vert"],
+                colors: ["exclusive"],
                 sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
             },
             {
-                name: "Jupe Plissée",
+                name: "Petit Noir Beige Chic",
                 price: "$26.99",
                 image: "img/z.png",
                 category: "vetements",
                 rating: 4,
-                colors: ["Rouge", "Bleu", "Vert"],
+                colors: ["exclusive"],
                 sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
             },
             {
-                name: "Jupe Plissée",
+                name: "Petit Bleu Confort",
                 price: "$26.99",
                 image: "img/a1.png",
                 category: "vetements",
                 rating: 4,
-                colors: ["Rouge", "Bleu", "Vert"],
-                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
+                colors: ["exclusive"],
+                sizes: ["4-5 ans", "6-7 ans", "8-9 ans"]
             },
             {
-                name: "Jupe Plissée",
+                name: "Petit Tommy Rouge Urbain",
                 price: "$26.99",
                 image: "img/a2.png",
                 category: "vetements",
                 rating: 4,
-                colors: ["Rouge", "Bleu", "Vert"],
-                sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
+                colors: ["exclusive"],
+                sizes: ["6-7 ans", "8-9 ans"]
             },
             {
-                name: "Jupe Plissée",
+                name: "Petit Marron Confort",
                 price: "$26.99",
                 image: "img/a3.png",
                 category: "vetements",
                 rating: 4,
-                colors: ["Rouge", "Bleu", "Vert"],
+                colors: ["exclusive"],
                 sizes: ["2-3 ans", "4-5 ans", "6-7 ans", "8-9 ans"]
             },
             {
