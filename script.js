@@ -632,30 +632,21 @@ document.addEventListener('DOMContentLoaded', function() {
                 sizes: ["0-3 mois", "3-6 mois", "6-9 mois", "9-12 mois"]
             },
             {
-                name: "Grenouillère",
+                name: "Black & White",
                 price: "$22.99",
                 image: "img/l3.png",
                 category: "bebe",
                 rating: 5,
-                colors: ["Rose", "Jaune", "Blanc"],
+                colors: ["Noir", "blanc"],
                 sizes: ["0-3 mois", "3-6 mois", "6-9 mois", "9-12 mois"]
             },
             {
-                name: "Ensemble Naissance",
+                name: "Lunettes Noir Chic",
                 price: "$29.99",
                 image: "img/l4.png",
                 category: "bebe",
                 rating: 4,
-                colors: ["Blanc", "Noir", "Gris"],
-                sizes: ["0-3 mois", "3-6 mois", "6-9 mois", "9-12 mois"]
-            },
-            {
-                name: "Bavoir Pack",
-                price: "$12.99",
-                image: "img/l5.png",
-                category: "bebe",
-                rating: 5,
-                colors: ["Blanc", "Rose", "Bleu"],
+                colors: ["exclusive"],
                 sizes: ["0-3 mois", "3-6 mois", "6-9 mois", "9-12 mois"]
             }
             
