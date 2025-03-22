@@ -30,6 +30,7 @@ const slides = [
 
 document.addEventListener('DOMContentLoaded', function() {
     const heroTitle = document.querySelector('.hero-content h1');
+    const SHEETDB_URL = "https://sheetdb.io/api/v1/0ntixpt0eb4wt"; // Remplacez par votre API Key
     let currentTitleIndex = 0;
 
     function updateTitle() {
@@ -265,21 +266,75 @@ document.addEventListener('DOMContentLoaded', function() {
 
         document.body.appendChild(modalOverlay);
 
-        const closeModal = () => {
-            modalOverlay.remove();
+    const closeModal = () => {
+        modalOverlay.remove();
+    };
+
+    modalOverlay.querySelector('.close-modal').addEventListener('click', closeModal);
+
+    modalOverlay.querySelector('#checkout-form').addEventListener('submit', (e) => {
+        e.preventDefault();
+
+        // Récupérer les informations de l'utilisateur
+        const customerName = document.getElementById("firstname").value;
+        const customerEmail = document.getElementById("email").value;
+        const customerPhone = document.getElementById("phone").value;
+        const customerAddress = document.getElementById("address").value;
+
+        // Vérifier que tous les champs sont remplis
+        if (!customerName || !customerEmail || !customerPhone || !customerAddress) {
+            alert("Veuillez remplir tous les champs !");
+            return;
+        }
+
+         // Ajoute ici la modification du bouton
+         const confirmButton = e.target.querySelector('.confirm-order-btn');
+         confirmButton.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Envoi de la commande en cours...';
+         confirmButton.disabled = true; // Désactive le bouton pour éviter les clics multiples
+
+
+        // Générer un ID unique pour la commande
+        const orderId = "CMD_" + Date.now();
+
+        // Calculer le montant total
+        let totalPrice = cartItems.reduce((sum, item) => sum + (parseFloat(item.price.replace('$', '')) * item.quantity), 0);
+
+        // Format des articles
+        const itemsDetails = cartItems.map(item => 
+            `${item.name} - ${item.price} x${item.quantity} (${item.color}, ${item.size})`
+        ).join("; ");
+
+        // Objet à envoyer à SheetDB
+        const orderData = {
+            "order_id": orderId,
+            "customer_name": customerName,
+            "customer_email": customerEmail,
+            "customer_phone": customerPhone,
+            "customer_address": customerAddress,
+            "total_price": totalPrice.toFixed(2),
+            "items_details": itemsDetails,
+            "date": new Date().toISOString().split('T')[0] // Date au format YYYY-MM-DD
         };
 
-        modalOverlay.querySelector('.close-modal').addEventListener('click', closeModal);
-
-        modalOverlay.querySelector('#checkout-form').addEventListener('submit', (e) => {
-            e.preventDefault();
-            alert('Merci pour votre commande ! Vous recevrez un email de confirmation.');
-            cartItems = [];
-            updateCartDisplay();
-            closeModal();
-            toggleCart();
+        // Envoi des données à SheetDB
+        fetch(SHEETDB_URL, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ data: [orderData] })
+        })
+        .then(response => response.json())
+        .then(data => {
+            alert("Commande enregistrée avec succès !");
+            cartItems = []; // Vider le panier
+            updateCartDisplay(); // Mettre à jour l'affichage du panier
+            closeModal(); // Fermer le modal
+        })
+        .catch(error => {
+            console.error("Erreur lors de l'envoi :", error);
+            alert("Une erreur est survenue. Veuillez réessayer.");
         });
-    }
+    });
+};
 
     initCartPanel();
 
